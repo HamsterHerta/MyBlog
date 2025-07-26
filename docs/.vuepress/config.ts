@@ -15,7 +15,7 @@ import { plumeTheme } from "vuepress-theme-plume";
 import notes from "./notes/index.ts";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/JiuWanli/",
   lang: "zh-CN",
   title: "九万里",
   description: "我的个人博客",

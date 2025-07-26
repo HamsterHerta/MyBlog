@@ -1,4 +1,4 @@
-export const redirects = JSON.parse("{\"/preview/custom-component.example.html\":\"/article/usqsbmqf/\",\"/preview/markdown.html\":\"/article/8y3y2nsd/\",\"/notes/flash/\":\"/flash/\",\"/notes/flash/WebFiction.html\":\"/flash/1lqpkaag/\",\"/notes/flash/ss.html\":\"/flash/8lth74es/\",\"/notes/front/\":\"/front/\",\"/notes/godot/\":\"/godot/\",\"/notes/twine/01CrateFirstStory.html\":\"/twine/dwoy841x/\",\"/notes/twine/02Variate.html\":\"/twine/9iw1vx0d/\",\"/notes/twine/\":\"/twine/\",\"/notes/mem/MacKeys.html\":\"/mem/n7i4kgf0/\",\"/notes/mem/\":\"/mem/\",\"/notes/mem/VimKeys.html\":\"/mem/kv48b550/\",\"/notes/mem/markdown.html\":\"/mem/aqg816uk/\",\"/notes/mem/mermaid.html\":\"/mem/5qum0d7m/\",\"/notes/front/01Basic/01HTML.html\":\"/front/rqmh10du/\",\"/notes/front/01Basic/02CSS.html\":\"/front/178hem9l/\",\"/notes/front/01Basic/03JavaScript.html\":\"/front/i6lawjf7/\",\"/notes/godot/01new/b.html\":\"/godot/3bmauskp/\",\"/notes/godot/01new/godot%E5%88%9D%E6%8E%A2.html\":\"/godot/ejiyqdng/\",\"/notes/godot/02advance/aaa.html\":\"/godot/rwhfkybq/\"}")
+export const redirects = JSON.parse("{\"/preview/custom-component.example.html\":\"/article/usqsbmqf/\",\"/preview/markdown.html\":\"/article/8y3y2nsd/\",\"/notes/flash/\":\"/flash/\",\"/notes/flash/WebFiction.html\":\"/flash/1lqpkaag/\",\"/notes/flash/ss.html\":\"/flash/8lth74es/\",\"/notes/mem/MacKeys.html\":\"/mem/n7i4kgf0/\",\"/notes/mem/\":\"/mem/\",\"/notes/mem/VimKeys.html\":\"/mem/kv48b550/\",\"/notes/mem/markdown.html\":\"/mem/aqg816uk/\",\"/notes/mem/mermaid.html\":\"/mem/5qum0d7m/\",\"/notes/twine/01CrateFirstStory.html\":\"/twine/dwoy841x/\",\"/notes/twine/02Variate.html\":\"/twine/9iw1vx0d/\",\"/notes/twine/\":\"/twine/\",\"/notes/front/\":\"/front/\",\"/notes/godot/\":\"/godot/\",\"/notes/front/01Basic/01HTML.html\":\"/front/rqmh10du/\",\"/notes/front/01Basic/02CSS.html\":\"/front/178hem9l/\",\"/notes/front/01Basic/03JavaScript.html\":\"/front/i6lawjf7/\",\"/notes/godot/02advance/aaa.html\":\"/godot/rwhfkybq/\",\"/notes/godot/01new/b.html\":\"/godot/3bmauskp/\",\"/notes/godot/01new/godot%E5%88%9D%E6%8E%A2.html\":\"/godot/ejiyqdng/\"}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
@@ -8,42 +8,25 @@ export const routes = Object.fromEntries([
   ["/flash/", { loader: () => import(/* webpackChunkName: "flash_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/flash/index.html.js"), meta: {"title":"flash"} }],
   ["/flash/1lqpkaag/", { loader: () => import(/* webpackChunkName: "flash_1lqpkaag_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/flash/1lqpkaag/index.html.js"), meta: {"title":"网络文学分类问题的讨论"} }],
   ["/flash/8lth74es/", { loader: () => import(/* webpackChunkName: "flash_8lth74es_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/flash/8lth74es/index.html.js"), meta: {"title":"ss"} }],
-  ["/front/", { loader: () => import(/* webpackChunkName: "front_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/index.html.js"), meta: {"title":"前端介绍"} }],
-  ["/godot/", { loader: () => import(/* webpackChunkName: "godot_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/index.html.js"), meta: {"title":"Godot介绍"} }],
-  ["/twine/dwoy841x/", { loader: () => import(/* webpackChunkName: "twine_dwoy841x_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/dwoy841x/index.html.js"), meta: {"title":"创建第一个故事"} }],
-  ["/twine/9iw1vx0d/", { loader: () => import(/* webpackChunkName: "twine_9iw1vx0d_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/9iw1vx0d/index.html.js"), meta: {"title":"变量的运用"} }],
-  ["/twine/", { loader: () => import(/* webpackChunkName: "twine_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/index.html.js"), meta: {"title":"twine简介"} }],
   ["/mem/n7i4kgf0/", { loader: () => import(/* webpackChunkName: "mem_n7i4kgf0_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/mem/n7i4kgf0/index.html.js"), meta: {"title":"Mac快捷键"} }],
   ["/mem/", { loader: () => import(/* webpackChunkName: "mem_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/mem/index.html.js"), meta: {"title":"备忘录"} }],
   ["/mem/kv48b550/", { loader: () => import(/* webpackChunkName: "mem_kv48b550_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/mem/kv48b550/index.html.js"), meta: {"title":"Vim操作"} }],
   ["/mem/aqg816uk/", { loader: () => import(/* webpackChunkName: "mem_aqg816uk_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/mem/aqg816uk/index.html.js"), meta: {"title":"markdown"} }],
   ["/mem/5qum0d7m/", { loader: () => import(/* webpackChunkName: "mem_5qum0d7m_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/mem/5qum0d7m/index.html.js"), meta: {"title":"mermaid"} }],
+  ["/twine/dwoy841x/", { loader: () => import(/* webpackChunkName: "twine_dwoy841x_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/dwoy841x/index.html.js"), meta: {"title":"创建第一个故事"} }],
+  ["/twine/9iw1vx0d/", { loader: () => import(/* webpackChunkName: "twine_9iw1vx0d_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/9iw1vx0d/index.html.js"), meta: {"title":"变量的运用"} }],
+  ["/twine/", { loader: () => import(/* webpackChunkName: "twine_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/index.html.js"), meta: {"title":"twine简介"} }],
+  ["/front/", { loader: () => import(/* webpackChunkName: "front_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/index.html.js"), meta: {"title":"前端介绍"} }],
+  ["/godot/", { loader: () => import(/* webpackChunkName: "godot_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/index.html.js"), meta: {"title":"Godot介绍"} }],
   ["/front/rqmh10du/", { loader: () => import(/* webpackChunkName: "front_rqmh10du_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/rqmh10du/index.html.js"), meta: {"title":"HTML"} }],
   ["/front/178hem9l/", { loader: () => import(/* webpackChunkName: "front_178hem9l_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/178hem9l/index.html.js"), meta: {"title":"CSS"} }],
   ["/front/i6lawjf7/", { loader: () => import(/* webpackChunkName: "front_i6lawjf7_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/i6lawjf7/index.html.js"), meta: {"title":"JavaScript"} }],
+  ["/godot/rwhfkybq/", { loader: () => import(/* webpackChunkName: "godot_rwhfkybq_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/rwhfkybq/index.html.js"), meta: {"title":"aaa"} }],
   ["/godot/3bmauskp/", { loader: () => import(/* webpackChunkName: "godot_3bmauskp_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/3bmauskp/index.html.js"), meta: {"title":"b"} }],
   ["/godot/ejiyqdng/", { loader: () => import(/* webpackChunkName: "godot_ejiyqdng_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/ejiyqdng/index.html.js"), meta: {"title":"godot初探"} }],
-  ["/godot/rwhfkybq/", { loader: () => import(/* webpackChunkName: "godot_rwhfkybq_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/godot/rwhfkybq/index.html.js"), meta: {"title":"aaa"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
   ["/blog/", { loader: () => import(/* webpackChunkName: "blog_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/blog/index.html.js"), meta: {"title":"博客"} }],
   ["/blog/tags/", { loader: () => import(/* webpackChunkName: "blog_tags_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/blog/tags/index.html.js"), meta: {"title":"标签"} }],
   ["/blog/archives/", { loader: () => import(/* webpackChunkName: "blog_archives_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/blog/archives/index.html.js"), meta: {"title":"归档"} }],
   ["/blog/categories/", { loader: () => import(/* webpackChunkName: "blog_categories_index.html" */"/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/blog/categories/index.html.js"), meta: {"title":"分类"} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
