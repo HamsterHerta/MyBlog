@@ -1,3 +1,0 @@
-import comp from "/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/front/178hem9l/index.html.vue"
-const data = JSON.parse("{\"path\":\"/front/178hem9l/\",\"title\":\"CSS\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"CSS\",\"createTime\":\"2025/07/24 15:42:34\",\"permalink\":\"/front/178hem9l/\"},\"readingTime\":{\"minutes\":0.03,\"words\":9},\"git\":{\"createdTime\":1753431039000,\"updatedTime\":1753431039000,\"contributors\":[{\"name\":\"hamster\",\"username\":\"hamster\",\"email\":\"hamstergrace2021@gmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/hamster?v=4\",\"url\":\"https://github.com/hamster\"}]},\"filePathRelative\":\"notes/front/01Basic/02CSS.md\",\"headers\":[]}")
-export { comp, data }

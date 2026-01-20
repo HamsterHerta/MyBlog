@@ -258,8 +258,7 @@
 <p>important</p>
 </div>
 <p><strong>代码演示：</strong></p>
-<p>:::: demo title=&quot;常规示例&quot; desc=&quot;一个常规示例&quot;</p>
-<CodeTabs id="357" :data='[{"id":"HTML"},{"id":"Javascript"},{"id":"CSS"}]'><template #title0="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-html"/><span>HTML</span></template><template #title1="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-js-official"/><span>Javascript</span></template><template #title2="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-css"/><span>CSS</span></template><template #tab0="{ value, isActive }"><div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#393a34;--shiki-dark:#dbd7caee;--shiki-light-bg:#ffffff;--shiki-dark-bg:#121212"><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code class="language-html"><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">div</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> id</span><span style="--shiki-light:#999999;--shiki-dark:#666666">=</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">app</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
+<VPDemoNormal :config="DemoContainer354" title="常规示例" desc="一个常规示例"><CodeTabs id="355" :data='[{"id":"HTML"},{"id":"Javascript"},{"id":"CSS"}]'><template #title0="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-html"/><span>HTML</span></template><template #title1="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-js-official"/><span>Javascript</span></template><template #title2="{ value, isActive }"><VPIcon provider="iconify" name="vscode-icons:file-type-css"/><span>CSS</span></template><template #tab0="{ value, isActive }"><div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#393a34;--shiki-dark:#dbd7caee;--shiki-light-bg:#ffffff;--shiki-dark-bg:#121212"><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code class="language-html"><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">div</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> id</span><span style="--shiki-light:#999999;--shiki-dark:#666666">=</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">app</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">"</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">  &#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">h3</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">vuepress-theme-plume</span><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">h3</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">div</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template><template #tab1="{ value, isActive }"><div class="language-js line-numbers-mode" data-highlighter="shiki" data-ext="js" style="--shiki-light:#393a34;--shiki-dark:#dbd7caee;--shiki-light-bg:#ffffff;--shiki-dark-bg:#121212"><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code class="language-js"><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">const</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> a</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> =</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">So Awesome!</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span></span>
@@ -269,14 +268,13 @@
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">  font-size</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91"> 2</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">em</span><span style="--shiki-light:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">  text-align</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#A65E2B;--shiki-dark:#C99076"> center</span><span style="--shiki-light:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template></CodeTabs><p>::::</p>
-<p><strong>选项卡：</strong></p>
-<Tabs id="374" :data='[{"id":"标题1"},{"id":"标题2"}]'>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></template></CodeTabs></VPDemoNormal><p><strong>选项卡：</strong></p>
+<Tabs id="370" :data='[{"id":"标题1"},{"id":"标题2"}]'>
 <template #title0="{ value, isActive }">标题1</template><template #title1="{ value, isActive }">标题2</template><template #tab0="{ value, isActive }"><p>内容区块</p>
 </template><template #tab1="{ value, isActive }"><p>内容区块</p>
 </template></Tabs><div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<Tabs id="387" :data='[{"id":"标题1"},{"id":"标题2"}]'>
+<Tabs id="383" :data='[{"id":"标题1"},{"id":"标题2"}]'>
 <template #title0="{ value, isActive }">标题1</template><template #title1="{ value, isActive }">标题2</template><template #tab0="{ value, isActive }"><p>内容区块</p>
 </template><template #tab1="{ value, isActive }"><p>内容区块</p>
 </template></Tabs></div>
@@ -300,7 +298,9 @@
 </div></template>
 
 
-
+<script setup>
+import DemoContainer354 from '/Users/admin/Documents/WorkSpace/MyBlog/docs/.vuepress/.temp/md-power/demo/normal/preview-markdown-DemoContainer354.js';
+</script>
 <style scoped>
 .open-door {
   display: flex;

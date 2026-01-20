@@ -8,7 +8,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
   { text: "首页", link: "/" },
-  { text: "关于我", link: "/about/" },
+  // { text: "关于我", link: "/about/" },
   { text: "博客", link: "/blog/" },
   { text: "归档", link: "/blog/archives/" },
   {
@@ -16,12 +16,14 @@ export default defineNavbarConfig([
     link: "/notes/flash/",
   },
   {
-    text: "学习笔记",
+    text: "笔记",
     items: [
       { text: "备忘录", link: "/notes/mem/" },
-      { text: "前端学习", link: "notes/front/" },
-      { text: "Godot学习", link: "/notes/godot/" },
-      { text: "Twine学习", link: "/notes/twine/" },
+      { text: "工作流", link: "/notes/work/" },
+      { text: "学习笔记", link: "/notes/learn/" },
+      { text: "编程学习", link: "/notes/code/" },
+      { text: "游戏学习", link: "/notes/game/" },
+      { text: "菜谱学习", link: "/notes/cook/" },
     ],
   },
 ]);

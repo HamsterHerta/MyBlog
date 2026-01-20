@@ -1,3 +1,0 @@
-import comp from "/Users/admin/WorkSpace/MyBlog/docs/.vuepress/.temp/pages/twine/index.html.vue"
-const data = JSON.parse("{\"path\":\"/twine/\",\"title\":\"twine简介\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"twine简介\",\"createTime\":\"2025/07/23 18:05:05\",\"permalink\":\"/twine/\"},\"readingTime\":{\"minutes\":0.09,\"words\":28},\"git\":{\"createdTime\":1753431039000,\"updatedTime\":1753431039000,\"contributors\":[{\"name\":\"hamster\",\"username\":\"hamster\",\"email\":\"hamstergrace2021@gmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/hamster?v=4\",\"url\":\"https://github.com/hamster\"}]},\"filePathRelative\":\"notes/twine/README.md\",\"headers\":[]}")
-export { comp, data }

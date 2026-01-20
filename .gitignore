@@ -7,3 +7,8 @@ docs/.vuepress/dist
 .DS_Store
 *.log
 .obsidian
+.prompt
+
+# YoYo AI version control directory
+.yoyo/
+

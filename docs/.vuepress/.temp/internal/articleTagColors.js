@@ -1,2 +1,2 @@
 import './articleTagColors.css'
-export const articleTagColors = {"预览":"7sf2","组件":"sldj","markdown":"fcbn"}
+export const articleTagColors = {"预览":"aqz0","组件":"p6b2","markdown":"u65i"}

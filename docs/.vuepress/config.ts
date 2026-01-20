@@ -103,11 +103,11 @@ export default defineUserConfig({
      * Shiki 代码高亮
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
-    // codeHighlighter: {
-    //   twoslash: true, // 启用 twoslash
-    //   whitespace: true, // 启用 空格/Tab 高亮
-    //   lineNumbers: true, // 启用行号
-    // },
+    codeHighlighter: {
+    // twoslash: true, // 启用 twoslash
+    whitespace: true, // 启用 空格/Tab 高亮
+    lineNumbers: true, // 启用行号
+    },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
     // rhttps://github.com/Pintree-io/pintreeeadingTime: true,
@@ -118,36 +118,46 @@ export default defineUserConfig({
      */
     markdown: {
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
-      //   annotation: true,   // 启用 annotation 语法  [+label]: content
+      annotation: true,   // 启用 annotation 语法  [+label]: content
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
-      //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
+      plot: true,         // 启用隐秘文本语法 !!xxxx!!
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       icon: { provider: "iconify" }, // 启用内置图标语法  ::icon-name::
-      markmap: true,
-      mermaid: true,
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
       //   replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)
       //   codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
       //   jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
-      //   npmTo: true,        // 启用 npm-to 容器  ::: npm-to
-      //   demo: true,         // 启用 demo 容器  ::: demo
-      //   repl: {             // 启用 代码演示容器
-      //     go: true,         // ::: go-repl
-      //     rust: true,       // ::: rust-repl
-      //     kotlin: true,     // ::: kotlin-repl
-      //     python: true,     // ::: python-repl
-      //   },
+      npmTo: true,        // 启用 npm-to 容器  ::: npm-to
+      demo: true,         // 启用 demo 容器  ::: demo
+      repl: {             // 启用 代码演示容器
+        go: true,         // ::: go-repl
+        rust: true,       // ::: rust-repl
+        kotlin: true,     // ::: kotlin-repl
+        python: true,     // ::: python-repl
+         },  
+/*       table: {
+        // 表格默认对齐方式 'left' | 'center' | 'right'
+        align: 'left',
+        // 表格宽度是否为最大内容宽度
+        // 行内元素不再自动换行，超出容器宽度时表格显示滚动条
+        maxContent: false,
+         // 复制为 html/markdown
+         // true 相当于 `all`，相当于同时启用 html 和 markdown
+        
+        copy: true, // true | 'all' | 'html' | 'md'
+      },  */
+
       math: {
         // 启用数学公式
         type: "katex",
       },
       //   chartjs: true,      // 启用 chart.js
       //   echarts: true,      // 启用 ECharts
-      //   mermaid: true,      // 启用 mermaid
+      mermaid: true,      // 启用 mermaid
       //   flowchart: true,    // 启用 flowchart
       //   image: {
       //     figure: true,     // 启用 figure

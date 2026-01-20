@@ -8,7 +8,8 @@ export default defineNoteConfig({
     {
       text: "语言基础",
       prefix: "01Basic",
-      items: ["01HTML", "02CSS", "03JavaScript"],
+      // items: ["01HTML", "02CSS", "03JavaScript"],
+      items: "auto",
       collapsed: true,
     },
     {

@@ -156,6 +156,10 @@
 <td style="text-align:left">L</td>
 <td style="text-align:left">光标移动到这个屏幕的最下方那一行的第一个字符</td>
 </tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
 </tbody>
 </table>
 <h3 id="搜索替换" tabindex="-1"><a class="header-anchor" href="#搜索替换"><span>搜索替换</span></a></h3>

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a65e40bb7a852a3c",
+        "id": "3d0a662004d20d5d",
         "type": "tabs",
         "children": [
           {
-            "id": "a63b854b4b651a61",
+            "id": "f1b8781f9ffe8fc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/mem/VimKeys.md",
+                "file": "docs/notes/mem/Vim/02VimKeys.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VimKeys"
+              "title": "02VimKeys"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247.5
   },
   "right": {
     "id": "b1915d2500b5b271",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/notes/demo/foo.md",
+                "file": "docs/notes/twine/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "foo 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -142,42 +142,72 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/demo/foo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "foo 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "126d248b445316d7",
+            "type": "leaf",
+            "state": {
+              "type": "note-to-red",
+              "state": {},
+              "icon": "image",
+              "title": "小红书预览"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 597.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "publish:发布更改": false
     }
   },
-  "active": "a63b854b4b651a61",
+  "active": "f1b8781f9ffe8fc8",
   "lastOpenFiles": [
-    "docs/notes/mem/README.md",
-    "docs/notes/mem/MacKeys.md",
-    "docs/notes/demo/bar.md",
-    "docs/notes/demo/README.md",
-    "docs/notes/demo/foo.md",
-    "docs/notes/godot/1.new/godot初探.md",
-    "docs/notes/godot/2.advance/aaa.md",
-    "docs/preview/markdown.md",
-    "docs/preview/custom-component.example.md"
+    "docs/notes/mem/Vim/03Neovim.md",
+    "docs/notes/mem/MD/01markdown.md",
+    "docs/notes/mem/MD/02mermaid.md",
+    "docs/notes/mem/MD/03Latex.md",
+    "docs/notes/mem/Vim/02VimKeys.md",
+    "docs/notes/flash/250808a.md",
+    "docs/notes/flash/250918.md",
+    "docs/讨论/养老问题.md",
+    "docs/讨论/身份政治.md",
+    "docs/讨论/生育策略.md",
+    "docs/notes/twine/README.md",
+    "docs/notes/twine/02Variate.md",
+    "docs/notes/twine/01CrateFirstStory.md",
+    "docs/notes/flash/WebFiction.md",
+    "docs/notes/flash/250924.md",
+    "docs/notes/mem/Vim/02Neovim.md",
+    "docs/notes/mem/Vim/ 01VimKeys.md",
+    "docs/notes/mem/Git/03GitError.md",
+    "docs/notes/mem/Git/02GitCom.md",
+    "docs/notes/mem/Git/01GitIntro.md",
+    "docs/notes/mem/Mac/04Problems.md",
+    "docs/notes/mem/Mac/03MacCode.md",
+    "docs/notes/mem/Mac/02MacCom.md",
+    "docs/notes/mem/Mac/01MacKeys.md",
+    "docs/notes/godot/01new/godot初探.md",
+    "docs/notes/flash/ss.md"
   ]
 }
