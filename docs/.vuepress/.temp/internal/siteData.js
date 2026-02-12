@@ -1,1 +1,0 @@
-export const siteData = JSON.parse("{\"base\":\"/JiuWanli/\",\"lang\":\"zh-CN\",\"title\":\"九万里\",\"description\":\"我的个人博客\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/png\",\"href\":\"https://theme-plume.vuejs.press/favicon-32x32.png\"}]],\"locales\":{}}")

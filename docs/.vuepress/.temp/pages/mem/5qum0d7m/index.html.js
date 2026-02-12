@@ -1,3 +1,0 @@
-import comp from "/Users/admin/Documents/WorkSpace/Vuepress/MyBlog/docs/.vuepress/.temp/pages/mem/5qum0d7m/index.html.vue"
-const data = JSON.parse("{\"path\":\"/mem/5qum0d7m/\",\"title\":\"mermaid\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"mermaid\",\"createTime\":\"2025/07/24 21:59:46\",\"permalink\":\"/mem/5qum0d7m/\"},\"readingTime\":{\"minutes\":0.54,\"words\":163},\"git\":{\"createdTime\":1768883954000,\"updatedTime\":1768883954000,\"contributors\":[{\"name\":\"hamster\",\"username\":\"hamster\",\"email\":\"hamstergrace2021@gmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/hamster?v=4\",\"url\":\"https://github.com/hamster\"}]},\"filePathRelative\":\"notes/mem/MD/02mermaid.md\",\"headers\":[]}")
-export { comp, data }

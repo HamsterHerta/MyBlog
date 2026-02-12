@@ -1,3 +1,0 @@
-import comp from "/Users/admin/Documents/WorkSpace/Vuepress/MyBlog/docs/.vuepress/.temp/pages/mem/kv48b550/index.html.vue"
-const data = JSON.parse("{\"path\":\"/mem/kv48b550/\",\"title\":\"Vim键位\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Vim键位\",\"createTime\":\"2025/07/24 15:55:01\",\"permalink\":\"/mem/kv48b550/\"},\"readingTime\":{\"minutes\":4.49,\"words\":1346},\"git\":{\"createdTime\":1753431039000,\"updatedTime\":1768883954000,\"contributors\":[{\"name\":\"hamster\",\"username\":\"hamster\",\"email\":\"hamstergrace2021@gmail.com\",\"commits\":2,\"avatar\":\"https://avatars.githubusercontent.com/hamster?v=4\",\"url\":\"https://github.com/hamster\"}]},\"filePathRelative\":\"notes/mem/Vim/02VimKeys.md\",\"headers\":[]}")
-export { comp, data }
