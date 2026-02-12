@@ -299,7 +299,7 @@
 
 
 <script setup>
-import DemoContainer354 from '/Users/admin/Documents/WorkSpace/MyBlog/docs/.vuepress/.temp/md-power/demo/normal/preview-markdown-DemoContainer354.js';
+import DemoContainer354 from '/Users/admin/Documents/WorkSpace/Vuepress/MyBlog/docs/.vuepress/.temp/md-power/demo/normal/preview-markdown-DemoContainer354.js';
 </script>
 <style scoped>
 .open-door {

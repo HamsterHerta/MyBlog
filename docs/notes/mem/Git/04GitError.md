@@ -75,3 +75,39 @@ git push -u origin main
 ```shell
 git pull --rebase origin main
 ```
+
+## Error: Connection reset by 20.205.243.166 port 22 fatal: Could not read from remote repository.
+遇到 `Connection reset by ... port 22` 错误，通常意味着你的网络与 GitHub 之间的 SSH 连接被某种防火墙、代理或 ISP（运营商）给强行掐断了。  
+通常有以下解决方法：   
+**1. 如果（没有）开启了网络代理**  
+可以关闭（开启）代理，然后重试。或修改`config`文件，让SSH走本地代理：
+在 `~/.ssh/config` 中，针对 `github.com` 添加一行配置（假设你的本地代理端口是 7890）：
+```
+Host github.com
+    Hostname github.com
+    User git
+    ProxyCommand nc -v -x 127.0.0.1:7890 %h %p  # Linux/macOS 用户
+    # Windows 用户通常使用：ProxyCommand connect -S 127.0.0.1:7890 %h %p
+```
+
+**2. 使用 443 端口进行 SSH**   
+GitHub 提供了一个备选方案：允许你通过 HTTPS 的端口（443）来运行 SSH，这通常能绕过大多数防火墙。  
+::::steps
+1. 测试443端口是否可用： `ssh -T -p 443 git@ssh.github.com`   
+  如果出现 `Hi [username]! You've successfully authenticated...`，说明此方法可行。
+2. 打开（或创建）你的 SSH 配置文件： `~/.ssh/config`
+3. 将以下内容粘贴进去：
+```
+Host github.com
+    Hostname ssh.github.com
+    Port 443
+    User git
+```
+4. 保存退出后，再次尝试 `git push`。如果是因为 22 端口被封，这个方法立竿见影。
+::::
+
+**3. 测试SSH连接**
+你可以通过以下命令看看 GitHub 是否能认出你： `ssh -T git@github.com`
+- 如果提示： `Hi [你的用户名]! You've successfully authenticated...` —— 说明连接通了，刚才可能只是网络瞬间抽风。
+- 如果依然提示： `Connection reset` —— 说明你的网络路径上依然有拦截。
+- 如果提示： `Permission denied (publickey)` —— 说明你的 SSH 密钥没配置好或者没添加到 GitHub 账户。

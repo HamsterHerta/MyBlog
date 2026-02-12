@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# ./deploy.sh
 
 # 忽略错误
 set -e  #有错误抛出错误

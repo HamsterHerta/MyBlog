@@ -15,6 +15,7 @@ permalink: /work/pjqojhud/
 ### AI工作流
 #### n8n
 
+### AI工具
 #### open-notebook
 - **简介**：一个开源的笔记本应用程序，支持Markdown，类似google LLMnotbook。
 - **项目地址**：[open-notebook](https://github.com/lfnovo/open-notebook)
@@ -65,10 +66,36 @@ docker-compose up -d
 浏览器访问地址`http://localhost:8502` 
 ::::
 
+#### nanobot
+- **简介**：用4000行代码实现Clawbot的基本功能
+- **项目地址**：[nanobot](https://github.com/HKUDS/nanobot)
+- **备注**：该项目的开发者主页还有很多值得学习的项目[HKUDS](https://github.com/HKUDS)
+
+## 知识聚合类
+### build-your-own-x
+- **简介**：教你手搓各种软件
+- **项目地址**：[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+### freeCodeCamp
+- **简介**：一个免费的在线编程学习平台
+- **项目地址**：[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+### Web-Dev-For-Beginners
+- **简介**：一个适合初学者的Web开发教程
+- **项目地址**：[Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+### ML-For-Beginners
+- **简介**：一个适合初学者的机器学习教程
+- **项目地址**：[ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
+### galaxy
+- **简介**：一个丰富的UI库
+- **项目地址**：[galaxy](https://github.com/uiverse-io/galaxy)
+
 ## 信息流
 ### folo
 
 ### News Minimalist
+
+### MrRss
+- **简介**：一个好用的RSS阅读器
+- **项目地址**：[MrRss](https://github.com/WCY-dt/MrRss)
 
 ## 好用工具
 ### Stirling-PDF
@@ -147,3 +174,41 @@ docker run -d -p 7860:7860 byaidu/pdf2zh
 - **功能**：软件会生成每秒一帧的截图，并根据屏幕截图由AI分析这段时间的屏幕活动，最后会给出每日日志
 - **优点**：可以方便地追踪每时刻的工作娱乐活动，自动分析工作内容
 - **缺点**：隐私问题，软件仍在开发中，有许多功能还未开放
+
+## 终端工具
+### pomo
+- **简介**：一个开源、运行在终端的番茄钟软件
+- **项目地址**：[pomo](https://github.com/Bahaaio/pomo)
+- **优点**：简洁高效，运行在终端，资源占用少。功能较少但比较全面，并且有统计功能
+- **缺点**：功能较少，不支持自定义
+
+### yazi
+- **简介**：一个命令行文件系统
+- **项目地址**：[yazi](https://github.com/sxyazi/yazi)
+- **优点**：
+
+### hours
+- **简介**：一个命令行时间管理工具
+- **项目地址**：[hours](https://github.com/dhth/hours)
+- **优点**：简洁高效，运行在终端，资源占用少。功能较少但比较全面，并且有统计功能
+- **缺点**：功能较少，不支持自定义
+
+### mole  
+- **简介**：一个命令行mac清理工具
+- **项目地址**：[mole](https://github.com/app111/mole)
+- **优点**：简单快速地清理mac中的垃圾。也可以方便地卸载软件。
+
+### surge  
+- **简介**：终端下载工具
+- **项目地址**：[surge](https://github.com/surge-downloader/surge)
+- **优点**：操作简单，界面优美，支持将文件分割成多个部分，然后并行下载。
+
+## 开源博客
+### 2025-blog-public
+- **简介**：一个美观的开源博客项目
+- **项目地址**：[2025-blog-public](https://github.com/YYsuni/2025-blog-public/)
+
+## 好玩的项目
+### GreemWall
+- **简介**：给你的github contribution“刷绿墙”，还可以自定义形状
+- **项目地址**：[GreemWall](https://github.com/username/GreemWall)
