@@ -4,9 +4,6 @@ import work from "./work";
 // import learn from "./learn";
 import code from "./code";
 import game from "./game";
-import godot from "./godot";
-import twine from "./twine";
-import front from "./front";
 import mem from "./mem";
 import cook from "./cook";
 

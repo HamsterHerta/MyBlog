@@ -11,16 +11,16 @@ export default defineNavbarConfig([
   // { text: "关于我", link: "/about/" },
   { text: "博客", link: "/blog/" },
   { text: "归档", link: "/blog/archives/" },
-  {
-    text: "碎碎念",
-    link: "/notes/flash/",
-  },
+  // {
+  //   text: "碎碎念",
+  //   link: "/notes/flash/",
+  // },
   {
     text: "笔记",
     items: [
       { text: "备忘录", link: "/notes/mem/" },
       { text: "工作流", link: "/notes/work/" },
-      { text: "学习笔记", link: "/notes/learn/" },
+      // { text: "学习笔记", link: "/notes/learn/" },
       { text: "编程学习", link: "/notes/code/" },
       { text: "游戏学习", link: "/notes/game/" },
       { text: "菜谱学习", link: "/notes/cook/" },

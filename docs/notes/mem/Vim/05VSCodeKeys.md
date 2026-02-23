@@ -13,7 +13,9 @@ permalink: /mem/6w0zpdiz/
 - 快速跳转对应行号：`ctrl+g`+跳转行号  
 - 行内按单词跳转：`ctrl+<左右箭头>`
 - 选中当前单词：`ctrl+l`，多次使用`ctrl+l`可以依次选中该单词
-- 选中所有当前单词：
+- 选中所有当前单词：`ctrl+shift+l`
+- 选中当前行：光标移动到行首，`ctrl+l`选中  
+
 
 ## 参考资料
 1. [必会！VSCode 最实用的快捷键](https://www.bilibili.com/video/BV19jS2YHEZM/?share_source=copy_web&vd_source=e5eecc9ca3fa53af389801921baafab3)

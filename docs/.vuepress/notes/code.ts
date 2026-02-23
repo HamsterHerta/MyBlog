@@ -11,20 +11,32 @@ export default defineNoteConfig({
       items: [
         {
           text: "语言基础",
-          prefix: "01Basic/",
+          prefix: "Basic/",
           // items: ["01HTML", "02CSS", "03JavaScript"],
           items: "auto",
           collapsed: true,
         },
         {
+          text: "JavaScript进阶",
+          prefix: "JavaScript/",
+          items: "auto",
+          collapsed: true,
+        },
+        {
+          text: "GoLang语言",
+          prefix: "GoLang/",
+          items: "auto",
+          collapsed: true,
+        },
+        {
           text: "Vue框架",
-          prefix: "02Vue/",
+          prefix: "Vue/",
           items: "auto",
           collapsed: true,
         },
         {
           text: "React框架",
-          prefix: "03React/",
+          prefix: "React/",
           items: "auto",
           collapsed: true,
         },
