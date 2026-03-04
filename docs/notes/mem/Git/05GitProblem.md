@@ -107,3 +107,16 @@ git config user.email "2665097234@qqcom"
     
 
 **你现在可以尝试按这个方法修改** `~/.ssh/config`**，然后把刚才报错的那个仓库地址改用对应的别名，权限拒绝的问题就能彻底解决了！**
+
+
+## 配置用户名和邮箱
+### 全局配置
+```shell
+git config --global user.name "yourname"
+git config --global user.email "youremail@example.com"
+```
+### 本地配置（针对单个仓库）
+```shell
+git config user.name "yourname"
+git config user.email "youremail@example.com"
+```
