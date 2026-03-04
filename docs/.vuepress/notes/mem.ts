@@ -24,18 +24,23 @@ export default defineNoteConfig({
       items: "auto",
       collapsed: false,
     },
-     {
+    {
       text: "Git杂谈",
       prefix: "Git",
       items: "auto",
       collapsed: false,
     },   
-
     {
       text: "标记语言",
       prefix: "MD",
       items: "auto",
       collapsed: false,
     },
+    {
+      text: "软件杂谈",
+      prefix: "Software",
+      items: "auto",
+      collapsed: false,
+    }
   ],
 });
