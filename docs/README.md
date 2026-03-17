@@ -2,37 +2,22 @@
 pageLayout: home
 externalLinkIcon: false
 config:
-  - type: doc-hero
+  -
+    type: hero
+    full: true
+    forceDark: true
+    effect: lightning
     hero:
-      name: 九万里
-      text: '---分享思考，分享感悟。'
-      tagline: 九万里风鹏正举，风休住，蓬舟吹取三山去。
-      image: /owl.jpg
+      name: Theme Plume
+      tagline: VuePress Next Theme
+      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
       actions:
-        - theme: brand
-          text: 我的博客 →
+        -
+          theme: brand
+          text: 博客
           link: /blog/
-        - theme: brand
-          text: 关于我
-          link: /about/
-        - theme: alt
-          text: Github
-          link: https://github.com/HamsterHerta
-  - type: features
-    features:
-      - title: 响应式布局
-        icon: 💻
-        details: 适配移动设备，PC，平板
-        link: https://github.com/pengzhanbo/vuepress-theme-plume
-      - title: 博客 & 文档
-        icon: 📖
-        details: 无论是想写博客，或想写产品文档，或者两者兼顾
-      - title: 开箱即用
-        icon: 🚀
-        details: 支持零配置即可使用，也支持丰富的自定义配置
-      - title: 多语言
-        icon: ⚖
-        details: 内置了 中文/英文支持，还可以自定义添加更多的语言支持
-createTime: 2025/07/28 12:08:40
-permalink: /article/k6m1wzmi/
+        -
+          theme: alt
+          text: Github →
+          link: https://github.com/pengzhanbo/vuepress-theme-plume
 ---

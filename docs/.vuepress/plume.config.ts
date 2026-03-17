@@ -10,20 +10,21 @@
  * 特别的，请不要在两个配置文件中重复配置相同的项，当前文件的配置项会覆盖 `.vuepress/config.ts` 文件中的配置
  */
 
-import { defineNoteConfig, defineThemeConfig } from "vuepress-theme-plume";
-import { defineUserConfig } from "vuepress";
-import navbar from "./navbar";
-import notes from "./notes";
+import { defineThemeConfig } from 'vuepress-theme-plume'
+import navbar from './navbar'
+import collections from './collections'
 
 /**
- * @see https://theme-plume.vuejs.press/config/basic/
+ * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: "https://theme-plume.vuejs.press/plume.png",
+  logo: 'https://theme-plume.vuejs.press/plume.png',
 
-  appearance: true, // 配置 深色模式
+  appearance: true,  // 配置 深色模式
 
-  social: [{ icon: "github", link: "/" }],
+  social: [
+    { icon: 'github', link: '/' },
+  ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
@@ -45,20 +46,19 @@ export default defineThemeConfig({
   // },
 
   /**
-   * @see https://theme-plume.vuejs.press/config/basic/#profile
+   * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: "https://theme-plume.vuejs.press/plume.png",
-    name: "MyBlog",
-    description: "我的个人博客",
+    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    name: 'My Vuepress Site',
+    description: '',
     // circle: true,
     // location: '',
     // organization: '',
   },
-  
 
   navbar,
-  notes,
+  collections,
 
   /**
    * 公告板
@@ -71,16 +71,11 @@ export default defineThemeConfig({
   //   content: '公告板内容',
   // },
 
-  /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
+  /* 过渡动画 @see https://theme-plume.vuejs.press/config/theme/#transition */
   // transition: {
   //   page: true,        // 启用 页面间跳转过渡动画
   //   postList: true,    // 启用 博客文章列表过渡动画
   //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
   // },
-});
 
-const FlashNote = defineNoteConfig({
-  dir: "flash",
-  link: "/FlashNote",
-  sidebar: "auto",
-});
+})
