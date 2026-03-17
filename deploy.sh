@@ -16,7 +16,7 @@ git commit -m 'deploy'
 
 git checkout -B master
 # 上传仓库，这里改成你自己的仓库
-git push -f git@github.com-blog:HamsterHerta/JiuWanli.git master:main
+git push -f git@github.com-hamster:HamsterHerta/JiuWanli.git master:main
 
 cd -
 

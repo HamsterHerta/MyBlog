@@ -1,42 +1,60 @@
-# my-vuepress-site
+# 个人知识库 & 博客
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+> 记录技术成长，分享生活点滴
 
-## Install
+一个基于 [VuePress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建的个人知识管理与博客站点。
+
+## 内容概览
+
+**代码世界** 
+— 前端开发探索之路
+- HTML / CSS / JavaScript 基础与进阶
+- Vue.js 框架实践
+- Julia 语言学习笔记
+
+**游戏开发** 
+— 独立游戏创作记录
+- Godot 游戏引擎入门与实战
+- Twine 互动小说制作
+
+**备忘笔记** 
+— 工具与效率整理
+- AI 工具实践（n8n、Ollama）
+- Git 版本控制技巧
+- Mac 使用心得
+- Vim / Neovim / LazyVim 配置
+- Markdown、Mermaid、LaTeX 语法参考
+- 常用软件推荐
+
+**闪念随想** 
+— 灵感与创作
+- 随笔记录
+- 网络小说相关
+
+**生活美食** 
+— 厨房小记
+- 家常菜谱分享
+
+## 快速开始
+
+### 安装依赖
 
 ```sh
-pnpm i
+pnpm install
 ```
 
-## Usage
+### 本地运行
 
 ```sh
-# start dev server
-pnpm docs:dev
-# build for production
-pnpm docs:build
-# preview production build in local
-pnpm docs:preview
-# update vuepress and theme
-pnpm vp-update
+pnpm docs:dev      # 启动开发服务器
+pnpm docs:build    # 生产环境构建
+pnpm docs:preview  # 本地预览构建结果
+pnpm vp-update     # 更新 VuePress 和主题
 ```
 
-## Deploy to GitHub Pages
 
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
+## 相关文档
 
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
+- [VuePress 官方文档](https://vuepress.vuejs.org/)
+- [vuepress-theme-plume 主题文档](https://theme-plume.vuejs.press/)
 
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
-
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
-
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)

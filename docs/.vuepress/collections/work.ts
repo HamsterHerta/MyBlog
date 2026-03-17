@@ -1,6 +1,7 @@
-import { defineNoteConfig } from "vuepress-theme-plume";
+import { defineCollection } from 'vuepress-theme-plume'
 
-export default defineNoteConfig({
+export default defineCollection({
+  type: 'doc',
   dir: "work",
   link: "/work/",
   sidebar: [
@@ -8,14 +9,7 @@ export default defineNoteConfig({
     {
       text:"文档写作",
       prefix: "DocuNote",
-      items: [
-        {
-          text: "Latex",
-          prefix: "LatexNote",
-          items: "auto",
-          collapsed: true,
-        },
-      ],
+      items: "auto",
       collapsed: true,
     },
     {
