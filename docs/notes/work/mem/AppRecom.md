@@ -203,6 +203,10 @@ docker run -d -p 7860:7860 byaidu/pdf2zh
 - **项目地址**：[surge](https://github.com/surge-downloader/surge)
 - **优点**：操作简单，界面优美，支持将文件分割成多个部分，然后并行下载。
 
+### zoxide
+- 简介：终端文件夹快速跳转工具
+- 项目地址：[zoxide](https://github.com/ajeetdsouza/zoxide)
+
 ## 开源博客
 ### 2025-blog-public
 - **简介**：一个美观的开源博客项目

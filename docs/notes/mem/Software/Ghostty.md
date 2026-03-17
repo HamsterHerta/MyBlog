@@ -19,11 +19,14 @@ permalink: /mem/mmzppu9h/
 - 分屏
   - 水平：`ctrl(cmd)+d`
   - 垂直：`ctrl(cmd)+shift+d`
+  - 切换：`ctrl(cmd)+[`或`ctrl(cmd)+]`
 - 标签
   - 新建：`ctrl(cmd)+t`
   - 关闭：`ctrl(cmd)+w`
-- 切换：`ctrl(cmd)+1~9`
+  - 切换：`ctrl(cmd)+1~9`
 - 调试：`ctrl(cmd)+shift+l`
+
+
 
 ## Ghostty常用命令
 

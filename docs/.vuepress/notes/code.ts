@@ -23,12 +23,6 @@ export default defineNoteConfig({
           collapsed: true,
         },
         {
-          text: "GoLang语言",
-          prefix: "GoLang/",
-          items: "auto",
-          collapsed: true,
-        },
-        {
           text: "Vue框架",
           prefix: "Vue/",
           items: "auto",
@@ -37,6 +31,25 @@ export default defineNoteConfig({
         {
           text: "React框架",
           prefix: "React/",
+          items: "auto",
+          collapsed: true,
+        },
+      ],
+      collapsed: true,
+    },
+    {
+      text: "后端笔记",
+      prefix: "Backend/",
+      items: [
+        {
+          text: "Go语言",
+          prefix: "GoLang/",
+          items: "auto",
+          collapsed: true,
+        },
+        {
+          text: "Python",
+          prefix: "Python/",
           items: "auto",
           collapsed: true,
         },

@@ -55,6 +55,7 @@ export default defineThemeConfig({
     // location: '',
     // organization: '',
   },
+  
 
   navbar,
   notes,
