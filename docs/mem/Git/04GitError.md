@@ -76,7 +76,7 @@ git push -u origin main
 git pull --rebase origin main
 ```
 
-## Error: Connection reset by 20.205.243.166 port 22 fatal: Could not read from remote repository.
+## Error: Connection reset by ... port 22 fatal: Could not read from remote repository.
 遇到 `Connection reset by ... port 22` 错误，通常意味着你的网络与 GitHub 之间的 SSH 连接被某种防火墙、代理或 ISP（运营商）给强行掐断了。  
 通常有以下解决方法：   
 **1. 如果（没有）开启了网络代理**  
@@ -111,3 +111,61 @@ Host github.com
 - 如果提示： `Hi [你的用户名]! You've successfully authenticated...` —— 说明连接通了，刚才可能只是网络瞬间抽风。
 - 如果依然提示： `Connection reset` —— 说明你的网络路径上依然有拦截。
 - 如果提示： `Permission denied (publickey)` —— 说明你的 SSH 密钥没配置好或者没添加到 GitHub 账户。
+
+## error: Your local changes to the following files would be overwritten by merge
+这个错误说明Git发现你在本地修改了某文件，而你正准备拉取的远程更新里也包含了这个文件的改动。为了防止你的本地工作被直接覆盖导致丢失，它选择了报错并停止操作。  
+根据你对本地改动的处理意愿，通常有以下三种解决方法：  
+
+**1. 暂时储藏（最推荐）**  
+
+如果你还没准备好提交这些改动，只是想先拉取远程代码。你可以把本地改动暂时“存”起来，拉取完后再拿出来。  
+::: steps
+1. 储藏本地改动：
+```shell
+git stash
+```
+2. 执行拉取：
+```shell
+git pull --tags origin master
+```
+3. 恢复储藏的改动：
+```shell
+git stash pop
+```
+:::
+
+**方法 2：正式提交**
+
+如果你觉得本地对 PDF 的修改已经完成了，那就直接存入仓库记录。
+
+::: steps
+1. 添加文件到暂存区：
+```shell
+git add docs/homework1/Assign1.pdf
+```
+2. 提交改动：
+```shell
+git commit -m "完成作业1的修改"
+```
+3. 执行拉取：
+```shell
+git pull --tags origin master
+```
+> [!note]
+> 这可能会触发一个“合并（merge）”提交，你需要输入合并说明。
+:::
+
+**方法 3：放弃本地改动（慎用）**  
+
+如果你不想要本地的修改了，觉得 GitHub 上的版本才是对的，可以直接撤销本地更改。注意：撤销后无法找回。
+
+::: steps
+1. 撤销指定文件的修改：
+```shell
+git checkout -- docs/homework1/Assign1.pdf
+```
+2. 执行拉取：
+```shell
+git pull --tags origin master
+```
+:::

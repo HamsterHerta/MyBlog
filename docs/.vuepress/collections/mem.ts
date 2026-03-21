@@ -10,7 +10,8 @@ export default defineCollection({
     { text: "Mac杂谈", prefix: "Mac", items: "auto", collapsed: true },
     { text: "Vim杂谈", prefix: "Vim", items: "auto", collapsed: true },
     { text: "Git杂谈", prefix: "Git", items: "auto", collapsed: true },
+    { text: "Docker杂谈", prefix: "Docker", items: "auto", collapsed: true },
     { text: "标记语言", prefix: "MD", items: "auto", collapsed: true },
-    { text: "软件杂谈", prefix: "Software", items: "auto", collapsed: true }
+    { text: "软件杂谈", prefix: "Software", items: "auto", collapsed: true },
   ],
 })
